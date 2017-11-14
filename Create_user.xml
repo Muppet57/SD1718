@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+	<username>Edu27</username>
+	<password>123456</password>
+	<name>Eduardo</name>
+	<surname>Pinhão</surname>
+	<age>39</age>
+	<sex>M</sex>
+	<weight>86</weight>
+	<height>185</height>
+	<link>/users/edu27</link>
+</user>
