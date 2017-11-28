@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <food>
-    <name>Morango</name>
-    <cal>30</cal>
-    <g100>100</g100>
+    <name>Cerveja</name>
+    <unit>
+        <value>1 lata ou garrafa (330ml)</value>
+        <lipids>0</lipids>
+        <carbs>11.88</carbs>
+        <prot>3.77</prot>
+        <calories>145</calories>
+    </unit>
+    <ml>
+        <value>100ml</value>
+        <lipids>0</lipids>
+        <carbs>3.60</carbs>
+        <prot>0.47</prot>
+        <calories>44</calories>
+    </ml>
 </food>
 
