@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods>
+    <link>/foods</link>
+    <count></count>
+    <beans_legumes name="Beans and Legumes">
+        <link>foods/beans_legumes</link>
+        <count></count>
+    </beans_legumes>
+    <beverages name="Beverages">
+        <link>/foods/beverages</link>
+        <count></count>
+        <food>
+            <name>Beer</name>
+            <unit>
+                <value>1 can or bottle (330ml)</value>
+                <lipids>0</lipids>
+                <carbs>11.88</carbs>
+                <prot>3.77</prot>
+                <calories>145</calories>
+            </unit>
+            <ml>
+                <value>100ml</value>
+                <lipids>0</lipids>
+                <carbs>3.60</carbs>
+                <prot>0.47</prot>
+                <calories>44</calories>
+            </ml>
+            <link>foods/beverages/beer</link>
+        </food>
+    </beverages>
+    <breads_cereals name="Breads and Cereals">
+        <link>foods/fruits</link>
+        <count></count>
+    </breads_cereals>
+    <cheese_dairy name="Cheese,Milk and Dairy">
+        <link>foods/fruits</link>
+        <count></count>
+    </cheese_dairy>
+    <eggs name="Eggs">
+        <link>foods/fruits</link>
+        <count></count>
+    </eggs>
+    <fastfood name="Fast Food">
+        <link>foods/fruits</link>
+        <count></count>
+    </fastfood>
+    <fish_seafood name="Fish and Seafood">
+        <link>foods/fruits</link>
+        <count></count>
+    </fish_seafood>
+    <fruits name="Fruits">
+        <link>foods/fruits</link>
+        <count></count>
+        <food>
+            <name>Avocado</name>
+            <unit>
+                <value>1 avocato</value>
+                <lipids>29.47</lipids>
+                <carbs>17.15</carbs>
+                <prot>4.02</prot>
+                <calories>322</calories>
+            </unit>
+            <grams>
+                <value>100g</value>
+                <lipids>14.96</lipids>
+                <carbs>8.53</carbs>
+                <prot>2.00</prot>
+                <calories>160</calories>
+            </grams>
+            <link>foods/fruits/avocado</link>
+        </food>
+        <food>
+            <name>Strawberry</name>
+            <unit>
+                <value>1 medium (3,25cm diameter)</value>
+                <lipids>0.04</lipids>
+                <carbs>0.92</carbs>
+                <prot>0.08</prot>
+                <calories>4</calories>
+            </unit>
+            <grams>
+                <value>100g</value>
+                <lipids>0.30</lipids>
+                <carbs>7.68</carbs>
+                <prot>0.67</prot>
+                <calories>3</calories>
+            </grams>
+            <link>foods/fruits/strawberry</link>
+        </food>
+    </fruits>
+    <meats name="Meat">
+        <link>foods/meats</link>
+        <count></count>
+    </meats>
+    <nuts_seeds name="Nuts and Seeds">
+        <link>foods/nuts_seeds</link>
+        <count></count>
+    </nuts_seeds>
+    <pasta_rice name="Pasta,Rice and Noodles">
+        <link>foods/pasta_rice</link>
+        <count></count>
+    </pasta_rice>
+    <salads name="Salads">
+        <link>foods/salads</link>
+        <count></count>
+    </salads>
+    <sauces_spices name="Sauces,Spices and Spreads">
+        <link>foods/sauces_spices</link>
+        <count></count>
+    </sauces_spices>
+    <snacks name="Snacks">
+        <link>foods/snacks</link>
+        <count></count>
+    </snacks>
+    <soups name="Soups">
+        <link>foods/soups</link>
+        <count></count>
+    </soups>
+    <sweets_desserts name="Sweets,Candy and Desserts">
+        <link>foods/sweets_desserts</link>
+        <count></count>
+    </sweets_desserts>
+    <vegetables name="Vegetables">
+        <link>foods/vegetables</link>
+        <count></count>
+    </vegetables>
+    <others name="Others">
+        <link>foods/others</link>
+        <count></count>
+    </others>
+</foods>

@@ -1,69 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <activities>
-    <sports_exercises>
+    <link>/activities</link>
+    <count></count>
+    <light name="Light intensity">
+        <link>/activities/light</link>
         <count></count>
-        <!-- <activity><description></description><met></met><calories_hour></calories_hour></activity>
-        -->
-        <activity intensity="light">
+        <activity>
             <name>Walking slow</name>
             <description>Walking slow - (3km/h)</description>
             <met>0.9</met>
             <calories_hour>66</calories_hour>
-            <link></link>
+            <link>/activities/light/walking_slow</link>
         </activity>
-        <activity intensity="light">
+        <activity>
             <name>Yoga</name>
             <description>Yoga</description>
             <met>3.0</met>
             <calories_hour>220</calories_hour>
+            <link>/activities/light/yoga</link>
         </activity>
-        <activity intensity="light">
+        <activity>
             <name>Rest</name>
             <description>Resting</description>
             <met>1.0</met>
             <calories_hour>74</calories_hour>
+            <link>/activities/light/rest</link>
         </activity>
-        <activity intensity="moderated">
+    </light>
+    <moderate name="Moderate intensity">
+        <link>/activities/moderate</link>
+        <count></count>
+        <activity>
             <name>Fishing</name>
             <description>Fishing</description>
             <met>3.0</met>
             <calories_hour>220</calories_hour>
+            <link>/activities/moderate/fishing</link>
         </activity>
-        <activity intensity="moderated">
+        <activity>
             <name>Surf</name>
             <description>Surfing</description>
             <met>3.0</met>
             <calories_hour>220</calories_hour>
+            <link>/activities/moderate/surf</link>
         </activity>
-        <activity intensity="moderated">
+        <activity>
             <name>Sailing</name>
             <description>Sailing</description>
             <met>3.0</met>
             <calories_hour>220</calories_hour>
+            <link>/activities/moderate/sailing</link>
         </activity>
-        <activity intensity="moderated">
+        <activity>
             <name>Pilates</name>
             <description>Pilates</description>
             <met>3.1</met>
             <calories_hour>228</calories_hour>
+            <link>/activities/moderate/pilates</link>
         </activity>
-        <activity intensity="moderated">
+        <activity>
             <name>Walking Moderate</name>
             <description>Walking moderate - (5km/h)</description>
             <met>3.3</met>
             <calories_hour>243</calories_hour>
+            <link>/activities/moderate/walking_moderate</link>
         </activity>
-        <activity intensity="moderated">
-            <name>Chalisthenics</name>
-            <description>Chalisthenics (light e.g. home exercise)</description>
+        <activity>
+            <name>Calisthenics</name>
+            <description>Calisthenics (light e.g. home exercise)</description>
             <met>3.5</met>
             <calories_hour>257</calories_hour>
+            <link>/activities/moderate/calisthenics</link>
         </activity>
-        <activity intensity="moderated">
+        <activity>
             <name>Walking exercise</name>
             <description>Walking exercise - (5.6km/h)</description>
             <met>3.8</met>
             <calories_hour>279</calories_hour>
+            <link>/activities/moderate/walking_exercise</link>
         </activity>
-    </sports_exercises>
+    </moderate>
+    <vigorous name="Vigorous Intensity">
+        <link>/activities/vigorous</link>
+        <count></count>
+    </vigorous>
 </activities>
