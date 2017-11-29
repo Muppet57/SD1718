@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activities>
+    <sports_exercises>
+        <count></count>
+        <!-- <activity><description></description><met></met><calories_hour></calories_hour></activity>
+        -->
+        <activity intensity="light">
+            <name>Walking slow</name>
+            <description>Walking slow - (3km/h)</description>
+            <met>0.9</met>
+            <calories_hour>66</calories_hour>
+            <link></link>
+        </activity>
+        <activity intensity="light">
+            <name>Yoga</name>
+            <description>Yoga</description>
+            <met>3.0</met>
+            <calories_hour>220</calories_hour>
+        </activity>
+        <activity intensity="light">
+            <name>Rest</name>
+            <description>Resting</description>
+            <met>1.0</met>
+            <calories_hour>74</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Fishing</name>
+            <description>Fishing</description>
+            <met>3.0</met>
+            <calories_hour>220</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Surf</name>
+            <description>Surfing</description>
+            <met>3.0</met>
+            <calories_hour>220</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Sailing</name>
+            <description>Sailing</description>
+            <met>3.0</met>
+            <calories_hour>220</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Pilates</name>
+            <description>Pilates</description>
+            <met>3.1</met>
+            <calories_hour>228</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Walking Moderate</name>
+            <description>Walking moderate - (5km/h)</description>
+            <met>3.3</met>
+            <calories_hour>243</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Chalisthenics</name>
+            <description>Chalisthenics (light e.g. home exercise)</description>
+            <met>3.5</met>
+            <calories_hour>257</calories_hour>
+        </activity>
+        <activity intensity="moderated">
+            <name>Walking exercise</name>
+            <description>Walking exercise - (5.6km/h)</description>
+            <met>3.8</met>
+            <calories_hour>279</calories_hour>
+        </activity>
+    </sports_exercises>
+</activities>

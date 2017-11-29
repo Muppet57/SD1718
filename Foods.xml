@@ -4,9 +4,9 @@
     <beans_legumes></beans_legumes>
     <beverages>
         <food>
-            <name>Cerveja</name>
+            <name>Beer</name>
             <unit>
-                <value>1 lata ou garrafa (330ml)</value>
+                <value>1 can or bottle (330ml)</value>
                 <lipids>0</lipids>
                 <carbs>11.88</carbs>
                 <prot>3.77</prot>
@@ -19,6 +19,7 @@
                 <prot>0.47</prot>
                 <calories>44</calories>
             </ml>
+            <link>foods/beverages/beer</link>
         </food>
     </beverages>
     <bread_cereals></bread_cereals>
@@ -28,9 +29,9 @@
     <fish_seafood></fish_seafood>
     <fruits>
         <food>
-            <name>Abacate</name>
+            <name>Avocado</name>
             <unit>
-                <value>1 abacate</value>
+                <value>1 avocato</value>
                 <lipids>29.47</lipids>
                 <carbs>17.15</carbs>
                 <prot>4.02</prot>
@@ -45,9 +46,9 @@
             </grams>
         </food>
         <food>
-            <name>Morango</name>
+            <name>Strawberry</name>
             <unit>
-                <value>1 médio (3,25cm diâmetro)</value>
+                <value>1 medium (3,25cm diameter)</value>
                 <lipids>0.04</lipids>
                 <carbs>0.92</carbs>
                 <prot>0.08</prot>

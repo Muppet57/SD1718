@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <food>
-    <name>Cerveja</name>
+    <name>Beer</name>
     <unit>
-        <value>1 lata ou garrafa (330ml)</value>
+        <value>1 can or bottle (330ml)</value>
         <lipids>0</lipids>
         <carbs>11.88</carbs>
         <prot>3.77</prot>
@@ -15,5 +15,6 @@
         <prot>0.47</prot>
         <calories>44</calories>
     </ml>
+    <link>foods/beverages/beer</link>
 </food>
 
