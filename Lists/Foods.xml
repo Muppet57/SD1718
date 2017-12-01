@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <foods>
-    <link>/foods</link>
     <count></count>
     <beans_legumes name="Beans and Legumes">
         <link>foods/beans_legumes</link>
