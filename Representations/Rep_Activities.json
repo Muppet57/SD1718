@@ -1,0 +1,9 @@
+{
+    "activity": {
+        "name": "Walking Slow",
+        "description": "Walking slow - (3km/h)",
+        "met": "0.9",
+        "calories_hour": "66",
+        "link": "/activities/light/walking_slow"
+    }
+}

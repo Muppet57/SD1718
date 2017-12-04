@@ -1,0 +1,20 @@
+{
+    "food": {
+        "name": "Beer",
+        "unit": {
+            "value": "1 can or bottle (330ml)",
+            "lipids": "0",
+            "carbs": "11.88",
+            "prot": "3.77",
+            "calories": "145"
+        },
+        "ml": {
+            "value": "100ml",
+            "lipids": "0",
+            "carbs": "3.60",
+            "prot": "0.47",
+            "calories": "44"
+        },
+        "link":"foods/beverages/beer"
+    }
+}
