@@ -1,0 +1,155 @@
+{
+    "foods": [
+        {
+            "count": "",
+            "beans_legumes": {
+                "name": "Beans & Legumes",
+                "link": "foods/beans_legumes",
+                "count": ""
+            },
+            "beverages": {
+                "name": "Beverages",
+                "link": "/foods/beverages",
+                "count": "",
+                "food": [
+                    {
+                        "name": "Beer",
+                        "unit": {
+                            "value": "1 can or bottle (330ml)",
+                            "lipids": "0",
+                            "carbs": "11.88",
+                            "prot": "3.77",
+                            "calories": "145"
+                        },
+                        "ml": {
+                            "value": "100ml",
+                            "lipids": "0",
+                            "carbs": "3.60",
+                            "prot": "0.47",
+                            "calories": "44"
+                        },
+                        "link": "foods/beverages/beer"
+                    }
+                ]
+            },
+            "bread_cereals": {
+                "name": "Breads & Cereals",
+                "link": "foods/fruits",
+                "count": ""
+            },
+            "cheese_dairy": {
+                "name": "Cheese,Milk & Dairy",
+                "link": "foods/fruits",
+                "count": ""
+            },
+            "eggs": {
+                "name": "Eggs",
+                "link": "foods/fruits",
+                "count": ""
+            },
+            "fastfood": {
+                "name": "Fast Food",
+                "link": "foods/fruits",
+                "count": ""
+            },
+            "fish_seafood": {
+                "name": "Fish & Seafood",
+                "link": "food/fruits",
+                "count": ""
+            },
+            "fruits": {
+                "name": "Fruits",
+                "link": "foods/fruits",
+                "count": "",
+                "food": [
+                    {
+                        "name": "Avocado",
+                        "unit": {
+                            "value": "1 avocado",
+                            "lipids": "29.47",
+                            "carbs": "17.15",
+                            "prots": "4.02",
+                            "calories": "322"
+                        },
+                        "grams": {
+                            "value": "1 avocado",
+                            "lipids": "14.96",
+                            "carbs": "8.53",
+                            "prots": "2.00",
+                            "calories": "160"
+                        },
+                        "link": "foods/fruits/avocado"
+                    },
+                    {
+                        "name": "Strawberry",
+                        "unit": {
+                            "value": "1 medium (3,25cm diameter)",
+                            "lipids": "0.04",
+                            "carbs": "0.92",
+                            "prots": "0.08",
+                            "calories": "4"
+                        },
+                        "grams": {
+                            "value": "100g",
+                            "lipids": "0.30",
+                            "carbs": "7.68",
+                            "prots": "0.67",
+                            "calories": "3"
+                        },
+                        "link": "foods/fruits/strawberry"
+                    }
+                ]
+            },
+            "meats": {
+                "name": "Meat",
+                "link": "foods/meats",
+                "count": ""
+            },
+            "nuts_seeds": {
+                "name": "Nuts & Seeds",
+                "link": "foods/nuts_seeds",
+                "count": ""
+            },
+            "pasta_rice": {
+                "name": "Pasta,Rice & Noodles",
+                "link": "foods/pasta_rice",
+                "count": ""
+            },
+            "salads": {
+                "name": "Salads",
+                "link": "foods/salads",
+                "count": ""
+            },
+            "sauces_spices": {
+                "name": "Sauces,Spices & Spreads",
+                "link": "foods/sauces_spices",
+                "count": ""
+            },
+            "snacks": {
+                "name": "Snacks",
+                "link": "foods/snacks",
+                "count": ""
+            },
+            "soups": {
+                "name": "Soups",
+                "link": "foods/soups",
+                "count": ""
+            },
+            "sweets_desserts": {
+                "name": "Sweets,Candy & Desserts",
+                "link": "foods/sweets_desserts",
+                "count": ""
+            },
+            "vegetables": {
+                "name": "Vegetables",
+                "link": "foods/vegetables",
+                "count": ""
+            },
+            "others": {
+                "name": "Others",
+                "link": "foods/others",
+                "count": ""
+            }
+        }
+    ]
+}

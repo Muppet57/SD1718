@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+            "count": "",
+            "user": [
+                {
+                    "username": "Eduardo27",
+                    "password": "123456",
+                    "email": "edu27@gmail.com",
+                    "name": "Eduardo",
+                    "surname": "Pinhão",
+                    "age": "39",
+                    "sex": "M",
+                    "weight": "86",
+                    "height": "185",
+                    "link": "/users/eduardo27"
+                },
+                {
+                    "username": "...",
+                    "password": "...",
+                    "email": "...",
+                    "name": "...",
+                    "surname": "...",
+                    "age": "...",
+                    "sex": "...",
+                    "weight": "...",
+                    "height": "...",
+                    "link": "/users/..."
+                }
+            ]
+        }
+    ]
+}
