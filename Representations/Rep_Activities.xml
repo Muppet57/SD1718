@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<activity>
+<activity intensity="Light">
     <name>Walking slow</name>
     <description>Walking slow - (3km/h)</description>
     <met>0.9</met>
     <calories_hour>66</calories_hour>
-    <link>/activities/light/walking_slow</link>
+    <link>/activities/walking_slow</link>
 </activity>
