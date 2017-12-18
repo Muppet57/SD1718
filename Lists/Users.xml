@@ -23,6 +23,6 @@
         <sex>...</sex>
         <weight>...</weight>
         <height>...</height>
-        <link>...</link>
+        <link>/users/...</link>
     </user>
 </users>
