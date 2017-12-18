@@ -1,99 +1,86 @@
 {
     "activities": {
         "count": {},
-        "light": [
+        "activity": [
             {
-                "name": "light intensity",
-                "link": "/activities/light",
-                "count": "",
-                "activity": [
-                    {
-                        "name": "Walking Slow",
-                        "description": "Walking slow - (3km/h)",
-                        "met": "0.9",
-                        "calories_hour": "66",
-                        "link": "/activities/light/walking_slow"
-                    },
-                    {
-                        "name": "Yoga",
-                        "description": "Yoga",
-                        "met": "3.0",
-                        "calories_hour": "220",
-                        "link": "/activities/light/yoga"
-                    },
-                    {
-                        "name": "Rest",
-                        "description": "Resting",
-                        "met": "1.0",
-                        "calories_hour": "74",
-                        "link": "/activities/light/rest"
-                    }
-                ]
-            }
-        ],
-        "moderate": [
+                "name": "Walking Slow",
+                "intensity":"Light",
+                "description": "Walking slow - (3km/h)",
+                "met": "0.9",
+                "calories_hour": "66",
+                "link": "/activities/light/walking_slow"
+            },
             {
-                "name": "Moderate Intensity",
-                "link": "/activities/moderate",
-                "count": "",
-                "activity": [
-                    {
-                        "name": "Fishing",
-                        "description": "Fishing",
-                        "met": "3.0",
-                        "calories_hour": "220",
-                        "link": "/activities/moderate/fishing"
-                    },
-                    {
-                        "name": "Surf",
-                        "description": "Surfing",
-                        "met": "3.0",
-                        "calories_hour": "220",
-                        "link": "/activities/moderate/surf"
-                    },
-                    {
-                        "name": "Sailing",
-                        "description": "Sailing",
-                        "met": "3.0",
-                        "calories_hour": "220",
-                        "link": "/activities/moderate/sailing"
-                    },
-                    {
-                        "name": "Pilates",
-                        "description": "Pilates",
-                        "met": "3.1",
-                        "calories_hour": "228",
-                        "link": "/activities/moderate/pilates"
-                    },
-                    {
-                        "name": "Walking Moderate",
-                        "description": "Walking moderate - (5km/h)",
-                        "met": "3.3",
-                        "calories_hour": "243",
-                        "link": "/activities/moderate/walking_moderate"
-                    },
-                    {
-                        "name": "Calisthenics",
-                        "description": "Calisthenics (light e.g. home exercise)",
-                        "met": "3.5",
-                        "calories_hour": "257",
-                        "link": "/activities/moderate/calisthenics"
-                    },
-                    {
-                        "name": "Walking exercise",
-                        "description": "Walking exercise - (5.6km/h)",
-                        "met": "3.8",
-                        "calories_hour": "279",
-                        "link": "/activities/moderate/walking_exercise"
-                    }
-                ]
-            }
-        ],
-        "vigorous": [
+                "name": "Yoga",
+                "intensity":"Light",
+                "description": "Yoga",
+                "met": "3.0",
+                "calories_hour": "220",
+                "link": "/activities/light/yoga"
+            },
             {
-                "name": "Vigorous Intensity",
-                "link": "/activities/vigorous",
-                "count": ""
+                "name": "Rest",
+                "intensity":"Light",
+                "description": "Resting",
+                "met": "1.0",
+                "calories_hour": "74",
+                "link": "/activities/light/rest"
+            },
+            {
+                "name": "Fishing",
+                "intensity":"Moderate",
+                "description": "Fishing",
+                "met": "3.0",
+                "calories_hour": "220",
+                "link": "/activities/moderate/fishing"
+            },
+            {
+                "name": "Surf",
+                "intensity":"Moderate",
+                "description": "Surfing",
+                "met": "3.0",
+                "calories_hour": "220",
+                "link": "/activities/moderate/surf"
+            },
+            {
+                "name": "Sailing",
+                "intensity":"Moderate",
+                "description": "Sailing",
+                "met": "3.0",
+                "calories_hour": "220",
+                "link": "/activities/moderate/sailing"
+            },
+            {
+                "name": "Pilates",
+                "intensity":"Moderate",
+                "description": "Pilates",
+                "met": "3.1",
+                "calories_hour": "228",
+                "link": "/activities/moderate/pilates"
+            },
+            {
+                "name": "Walking Moderate",
+                "intensity":"Moderate",
+                "description": "Walking moderate - (5km/h)",
+                "met": "3.3",
+                "calories_hour": "243",
+                "link": "/activities/moderate/walking_moderate"
+            },
+            {
+                "name": "Calisthenics",
+                "intensity":"Moderate",
+                "description": "Calisthenics (light e.g. home exercise)",
+                "met": "3.5",
+                "calories_hour": "257",
+                "link": "/activities/moderate/calisthenics"
+            },
+            {
+                "name": "Walking exercise",
+                "intensity":"Moderate",
+                "description": "Walking exercise - (5.6km/h)",
+                "met": "3.8",
+                "calories_hour": "279",
+                "link": "/activities/moderate/walking_exercise"
             }
         ]
     }
