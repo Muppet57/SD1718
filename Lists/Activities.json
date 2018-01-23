@@ -1,6 +1,8 @@
 {
     "activities": {
-        "count": {},
+        "count": {
+	value:"9"
+	},
         "activity": [
             {
                 "name": "Walking Slow",

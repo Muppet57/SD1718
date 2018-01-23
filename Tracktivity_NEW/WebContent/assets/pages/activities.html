@@ -1,0 +1,26 @@
+<script src="assets/js/activities.js"></script>
+
+<div class="main">
+  <p> Here you can find all the available activities for you to track and all the relevant information about them.</p>
+  <p>Note: If you are not logged in the amount of calories burned are calculated for a Male with 70kg.</p>
+ <div class="form-group">
+    <select id="sltIntActi" name="intensity">
+            <option value="all">All</option>
+            <option value="Light">Light</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Intense">Intense</option>
+          </select>
+	<button class="btn btn-outline-success form-inline" id="btnFilter">Filter</button>
+          
+ </div>
+        <div class="form-group">
+          <input placeholder="Ex: Walking Slow" type="text" id="inQuery2"  name="Activityquery" />
+          		<button class="btn btn-outline-success form-inline" id="btnSearchActi">Search</button>
+          
+        </div>
+  <div class="table-responsive">
+    <table class="table table-striped form-group" id="tblActivityAPI">
+    </table>
+    <h1 id='valcal' style='color:white'></h1>
+  </div>
+</div>

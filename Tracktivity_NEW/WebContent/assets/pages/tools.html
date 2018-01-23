@@ -1,0 +1,77 @@
+<script src="assets/js/tools.js"></script>
+<div class="main">
+	<h2 style="color:white">
+		<strong>Tools</strong>
+	</h2>
+	<p>
+		<strong>Search and filter</strong> through the existing
+		<strong>Activities</strong> and see their respective information!</p>
+	<div class="form-group">
+		<select id="sltIntTools" name="intensity">
+			<option value="all">All</option>
+			<option value="Light">Light</option>
+			<option value="Moderate">Moderate</option>
+			<option value="Intense">Intense</option>
+		</select>
+		<button class="btn btn-outline-success form-inline" id="btnSearchTools">Search</button>
+	</div>
+
+	<table class="table" id="tblActivities">
+	</table>
+	<hr>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4">
+			<div class="form-box">
+				<div class="form-top">
+					<div class="form-top-left">
+						<h3>Add or Remove activities</h3>
+						<p>Enter the required fields and select an option:</p>
+					</div>
+					<div class="form-top-right">
+						<i class="fa fa-pencil"></i>
+					</div>
+				</div>
+				<div class="form-bottom">
+					<form role="form" action="api/activities" method="POST" class="login-form">
+						<div class="form-group">
+							<label for="form-username">Name</label>
+							<input type="text" name="name" placeholder="Walking Slow..." class="form-username form-control" id="txtName">
+						</div>
+				
+						<div class="form-group">
+							<label for="form-username">Intensity</label>
+							<select id="sltIntForm" class="form-username form-control" style="height:50px">
+								<option value="Light">Light</option>
+								<option value="Moderate">Moderate</option>
+								<option value="Intense">Intense</option>
+							</select>
+
+						</div>
+						<div class="form-group">
+							<label for="form-username">Description</label>
+							<input type="text" name="description" placeholder="Walking slow at 3km/h..." class="form-username form-control" id="txtDesc">
+						</div>
+						<div class="form-group">
+							<label for="form-password">MET</label>
+							<input type="number" name="met" placeholder="31" class="form-password form-control" id="nbMet">
+						</div>
+						<div class="form-group">
+							<label for="form-password">Calories</label>
+							<input type="number" name="met" placeholder="31" class="form-password form-control" id="nbCalories">
+						</div>
+						<div class="form-inline">
+							<button type="button" class="btn" id="btnInsertTools">
+								<strong>Insert</strong>
+							</button>
+							<br>
+							<br>
+							<button type="button" class="btn" style="background-color:rgb(160, 16, 16)" id="btnRemoveTools">
+								<strong>Remove</strong>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
