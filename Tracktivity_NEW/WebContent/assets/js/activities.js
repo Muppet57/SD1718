@@ -98,6 +98,24 @@ $(document).ready(function () {
 				alert("error");
 			});
 	}
+	
+	$('.content').on('click','#timeactivity', function() { 
+		
+		var met = $(this).closest('tr').find('td').eq(3).text();
+		var time = $(this).val();
+		if (gender=="male")
+			{
+				burnedCalories= Math.round((bmrMale/24)*time*met);
+				$(this).closest('tr').find('td').eq(6).text(burnedCalories);
+			}
+		else{
+			burnedCalories= Math.round((bmrFemale/24)*time*met);
+			$(this).closest('tr').find('td').eq(6).text(burnedCalories);
+		}
+		
+			
+	});
+	
 	$('.content').on('click','#addcal', function() { 
 		if(sessionStorage['burn'])
 			{
@@ -111,6 +129,8 @@ $(document).ready(function () {
 		}
 		$("#valcal").text("");
 		$("#valcal").text("Calories Burned : "+sessionStorage.getItem('burn'));
+		$("#valcal2").text("");
+		$("#valcal2").text("Calories Burned : "+sessionStorage.getItem('burn'));
 	});
 	
 	$('#btnFilter').on('click', function () {
